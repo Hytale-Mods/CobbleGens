@@ -1,0 +1,106 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Darkhax_CobbleGens_Bench.name",
+    "Description": "items.Darkhax_CobbleGens_Bench.description"
+  },
+  "Categories": [
+    "Furniture.Benches"
+  ],
+  "Recipe": {
+    "TimeSeconds": 2,
+    "Input": [
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Rock_Stone"
+      },
+      {
+        "Quantity": 10,
+        "ResourceTypeId": "Wood_Trunk"
+      },
+      {
+        "ItemId": "Ingredient_Bar_Copper",
+        "Quantity": 5
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Workbench_Crafting"
+        ],
+        "RequiredTierLevel": 1
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Blocks/CobbleGen/Darkhax_CobbleGen_Bench.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/CobbleGen/Darkhax_CobbleGen_Bench.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Darkhax_CobbleGens_Bench",
+    "VariantRotation": "NESW",
+    "Bench": {
+      "Type": "Crafting",
+      "BenchUpgradeSoundEventId": "SFX_Workbench_Upgrade_Start_Default",
+      "BenchUpgradeCompletedSoundEventId": "SFX_Workbench_Upgrade_Complete_Default",
+      "Categories": [
+        {
+          "Id": "Darkhax_CobbleGens_Bench",
+          "Icon": "Icons/CraftingCategories/Alchemy/Combat_Potions.png",
+          "Name": "Darkhax_CobbleGens_Bench"
+        }
+      ],
+      "Id": "Darkhax_CobbleGens_Bench"
+    },
+    "State": {
+      "Id": "crafting",
+      "Definitions": {
+        "CraftCompleted": {
+        }
+      }
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Benches"
+      }
+    },
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "BlockSoundSetId": "Stone"
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Type": [
+      "Bench"
+    ]
+  },
+  "IconProperties": {
+    "Scale": .45,
+    "Translation": [
+      0,
+      -24
+    ],
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Icon": "Icons/ItemsGenerated/Darkhax_CobbleGens_Bench.png"
+}

@@ -1,0 +1,57 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Darkhax_CobbleGens_CopperGen.name",
+    "Description": "items.Darkhax_CobbleGens_CopperGen.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Darkhax_CobbleGens_CopperGen.png",
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 1,
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/CobbleGen/Darkhax_CobbleGen_CopperGen.png"
+      }
+    ],
+    "CustomModel": "Blocks/CobbleGen/Darkhax_CobbleGens_Generator.blockymodel",
+    "CustomModelAnimation": "Blocks/CobbleGen/Darkhax_CobbleGens_Generator.blockyanim",
+    "Looping": true,
+    "State": {
+      "Id": "DarkhaxSpellbookItemGenerator",
+      "Output": {
+        "Type": "Item",
+        "ItemId": "Rock_Stone_Cobble",
+        "Amount": {
+          "Min": 1,
+          "Max": 1
+        }
+      },
+      "ExportFaces": [
+        "Up",
+        "Down"
+      ],
+      "Cooldown": {
+        "Min": 1800,
+        "Max": 1800
+      },
+      "ExportOnce": true
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  }
+}

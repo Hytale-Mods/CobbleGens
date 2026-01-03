@@ -1,0 +1,34 @@
+{
+  "Input": [
+    {
+      "ResourceTypeId": "Rock",
+      "Quantity": 20
+    },
+    {
+      "ItemId": "Ingredient_Fire_Essence",
+      "Quantity": 10
+    },
+    {
+      "ItemId": "Ingredient_Water_Essence",
+      "Quantity": 10
+    },
+    {
+      "ItemId": "Ingredient_Bar_Copper",
+      "Quantity": 8
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Darkhax_CobbleGens_CopperGen",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Categories": [
+        "Darkhax_CobbleGens_Bench"
+      ],
+      "Id": "Darkhax_CobbleGens_Bench"
+    }
+  ],
+  "TimeSeconds": 5.0
+}

@@ -1,0 +1,30 @@
+{
+  "Input": [
+    {
+      "ResourceTypeId": "Rock",
+      "Quantity": 80
+    },
+    {
+      "ItemId": "Ingredient_Bar_Adamantite",
+      "Quantity": 8
+    },
+    {
+      "ItemId": "Darkhax_CobbleGens_CobaltGen",
+      "Quantity": 1
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Darkhax_CobbleGens_AdamantiteGen",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Categories": [
+        "Darkhax_CobbleGens_Bench"
+      ],
+      "Id": "Darkhax_CobbleGens_Bench"
+    }
+  ],
+  "TimeSeconds": 5.0
+}

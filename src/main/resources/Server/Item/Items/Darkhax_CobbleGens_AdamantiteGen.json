@@ -1,0 +1,69 @@
+{
+  "TranslationProperties": {
+    "Name": "items.Darkhax_CobbleGens_AdamantiteGen.name",
+    "Description": "items.Darkhax_CobbleGens_AdamantiteGen.description"
+  },
+  "PlayerAnimationsId": "Block",
+  "MaxStack": 1,
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "BlockSoundSetId": "Stone",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#5C583E",
+    "CustomModelTexture": [
+      {
+        "Texture": "Blocks/CobbleGen/Darkhax_CobbleGen_AdamantiteGen.png"
+      }
+    ],
+    "CustomModel": "Blocks/CobbleGen/Darkhax_CobbleGens_Generator.blockymodel",
+    "CustomModelAnimation": "Blocks/CobbleGen/Darkhax_CobbleGens_Generator.blockyanim",
+    "Looping": true,
+    "State": {
+      "Id": "DarkhaxSpellbookItemGenerator",
+      "Output": {
+        "Type": "Item",
+        "ItemId": "Rock_Stone_Cobble",
+        "Amount": {
+          "Min": 16,
+          "Max": 16
+        }
+      },
+      "ExportFaces": [
+        "Up",
+        "Down"
+      ],
+      "Cooldown": {
+        "Min": 1800,
+        "Max": 1800
+      },
+      "ExportOnce": true
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Icon": "Icons/ItemsGenerated/Darkhax_CobbleGens_AdamantiteGen.png"
+}

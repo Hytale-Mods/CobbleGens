@@ -1,0 +1,21 @@
+{
+    "Group": "Darkhax",
+    "Name": "CobbleGens",
+    "Version": "2026.1.3-30666",
+    "Description": "Generating cobblestone!",
+    "Authors": [
+        {
+            "Name": "Darkhax"
+        }
+    ],
+    "Website": "darkhax.net",
+    "ServerVersion": "*",
+    "Dependencies": {
+        "Darkhax:Spellbook": "*"
+    },
+    "OptionalDependencies": {
+        
+    },
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true
+}
