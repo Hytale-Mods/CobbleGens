@@ -31,7 +31,6 @@ javadoc {
 // the official launcher for now.
 dependencies {
     implementation(files("$hytaleHome/install/$patchline/package/game/latest/Server/HytaleServer.jar"))
-    implementation(files('libs/Spellbook-2025.12.31-25286.jar'))
 }
 
 // Create the working directory to run the server if it does not already exist.
@@ -94,9 +93,6 @@ idea.project.settings.runConfigurations {
         }
         if (load_user_mods.toBoolean()) {
             programParameters += " --mods=$hytaleHome/UserData/Mods"
-        }
-        if (use_insecure_auth.toBoolean()) {
-            programParameters += " --auth-mode=insecure"
         }
         workingDirectory = serverRunDir.absolutePath
     }

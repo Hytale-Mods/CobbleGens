@@ -1,7 +1,7 @@
 {
     "Group": "Darkhax",
     "Name": "CobbleGens",
-    "Version": "2026.1.5-4050",
+    "Version": "2026.1.12-32469",
     "Description": "Generating cobblestone!",
     "Authors": [
         {
@@ -11,7 +11,7 @@
     "Website": "https://www.curseforge.com/hytale/mods/cobble-generators",
     "ServerVersion": "*",
     "Dependencies": {
-        "Darkhax:Spellbook": "*"
+        
     },
     "OptionalDependencies": {
         
