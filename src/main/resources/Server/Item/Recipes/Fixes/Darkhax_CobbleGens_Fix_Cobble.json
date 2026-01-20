@@ -1,0 +1,22 @@
+{
+  "Input": [
+    {
+      "ItemId": "Rock_Stone_Cobble",
+      "Metadata": {}
+    }
+  ],
+  "PrimaryOutput": {
+    "ItemId": "Rock_Stone_Cobble",
+    "Quantity": 1
+  },
+  "BenchRequirement": [
+    {
+      "Type": "Crafting",
+      "Categories": [
+        "Darkhax_CobbleGens_Fixes"
+      ],
+      "Id": "Darkhax_CobbleGens_Bench"
+    }
+  ],
+  "TimeSeconds": 0
+}

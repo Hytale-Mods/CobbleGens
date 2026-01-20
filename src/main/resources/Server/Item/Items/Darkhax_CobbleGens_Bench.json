@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Darkhax_CobbleGens_Bench.name",
-    "Description": "items.Darkhax_CobbleGens_Bench.description"
+    "Name": "server.items.Darkhax_CobbleGens_Bench.name",
+    "Description": "server.items.Darkhax_CobbleGens_Bench.description"
   },
   "Categories": [
     "Furniture.Benches"
@@ -53,8 +53,13 @@
       "Categories": [
         {
           "Id": "Darkhax_CobbleGens_Bench",
-          "Icon": "Icons/CraftingCategories/Alchemy/Combat_Potions.png",
-          "Name": "Darkhax_CobbleGens_Bench"
+          "Icon": "Icons/CraftingCategories/Darkhax_CobbleGens_Base.png",
+          "Name": "server.benchCategories.Darkhax_CobbleGens.base"
+        },
+        {
+          "Id": "Darkhax_CobbleGens_Fixes",
+          "Icon": "Icons/CraftingCategories/Darkhax_CobbleGens_Fix.png",
+          "Name": "server.benchCategories.Darkhax_CobbleGens.fix"
         }
       ],
       "Id": "Darkhax_CobbleGens_Bench"
