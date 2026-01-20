@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Darkhax_CobbleGens_AdamantiteGen.name",
-    "Description": "items.Darkhax_CobbleGens_AdamantiteGen.description"
+    "Name": "server.items.Darkhax_CobbleGens_AdamantiteGen.name",
+    "Description": "server.items.Darkhax_CobbleGens_AdamantiteGen.description"
   },
   "PlayerAnimationsId": "Block",
   "MaxStack": 1,

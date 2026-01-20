@@ -1,0 +1,17 @@
+benchCategories.Darkhax_CobbleGens.base=Cobble Generators
+benchCategories.Darkhax_CobbleGens.fix=Fixes
+
+items.Darkhax_CobbleGens_CopperGen.name=Copper Cobblestone Generator
+items.Darkhax_CobbleGens_CopperGen.description=Passively produces <b><color is="#ffffff">1</color></b> cobblestone per minute, automatically depositing it into storage blocks directly above or below the generator.
+items.Darkhax_CobbleGens_IronGen.name=Iron Cobblestone Generator
+items.Darkhax_CobbleGens_IronGen.description=Passively produces <b><color is="#ffffff">4</color></b> cobblestone per minute, automatically depositing it into storage blocks directly above or below the generator.
+items.Darkhax_CobbleGens_CobaltGen.name=Cobalt Cobblestone Generator
+items.Darkhax_CobbleGens_CobaltGen.description=Passively produces <b><color is="#ffffff">8</color></b> cobblestone per minute, automatically depositing it into storage blocks directly above or below the generator.
+items.Darkhax_CobbleGens_ThoriumGen.name=Thorium Cobblestone Generator
+items.Darkhax_CobbleGens_ThoriumGen.description=Passively produces <b><color is="#ffffff">8</color></b> cobblestone per minute, automatically depositing it into storage blocks directly above or below the generator.
+items.Darkhax_CobbleGens_AdamantiteGen.name=Adamantite Cobblestone Generator
+items.Darkhax_CobbleGens_AdamantiteGen.description=Passively produces <b><color is="#ffffff">16</color></b> cobblestone per minute, automatically depositing it into storage blocks directly above or below the generator.
+items.Darkhax_CobbleGens_MithrilGen.name=Mithril Cobblestone Generator
+items.Darkhax_CobbleGens_MithrilGen.description=Passively produces <b><color is="#ffffff">16</color></b> cobblestone per minute, automatically depositing it into storage blocks directly above or below the generator.
+items.Darkhax_CobbleGens_Bench.name=Cobble Bench
+items.Darkhax_CobbleGens_Bench.description=A bench for crafting cobblestone generators.

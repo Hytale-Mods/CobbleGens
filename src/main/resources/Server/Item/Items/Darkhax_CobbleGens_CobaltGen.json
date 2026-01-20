@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Darkhax_CobbleGens_CobaltGen.name",
-    "Description": "items.Darkhax_CobbleGens_CobaltGen.description"
+    "Name": "server.items.Darkhax_CobbleGens_CobaltGen.name",
+    "Description": "server.items.Darkhax_CobbleGens_CobaltGen.description"
   },
   "PlayerAnimationsId": "Block",
   "MaxStack": 1,

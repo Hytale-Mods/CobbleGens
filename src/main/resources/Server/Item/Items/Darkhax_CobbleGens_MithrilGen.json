@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "items.Darkhax_CobbleGens_MithrilGen.name",
-    "Description": "items.Darkhax_CobbleGens_MithrilGen.description"
+    "Name": "server.items.Darkhax_CobbleGens_MithrilGen.name",
+    "Description": "server.items.Darkhax_CobbleGens_MithrilGen.description"
   },
   "PlayerAnimationsId": "Block",
   "MaxStack": 1,
